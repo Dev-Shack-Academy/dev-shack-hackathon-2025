@@ -141,9 +141,13 @@ cd client
 
 # Install JavaScript dependencies
 npm install
+# Or use yarn
+# yarn install
 
 # Start development server
 npm run dev
+# Or use yarn
+# yarn dev
 ```
 
 Frontend client will be available at: `http://localhost:5173`
@@ -583,18 +587,23 @@ python manage.py test
 ```bash
 # Start development server
 npm run dev
+# Or: yarn dev
 
 # Build for production
 npm run build
+# Or: yarn build
 
 # Run linting
 npm run lint
+# Or: yarn lint
 
 # Format code
 npm run format
+# Or: yarn format
 
 # Preview production build
 npm run preview
+# Or: yarn preview
 ```
 
 ### Docker
